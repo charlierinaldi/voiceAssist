@@ -20,3 +20,15 @@ Hey, better to be safe than sorry. Don't wanna lose the hard work that went into
 ####################################
 Notes on transcription process:
     Need to develop strategy for selecting the appropriate audio file... how can this be done with someething that listens in real time and generates the audio file upon hearing command?
+
+
+
+
+
+3/6/2023 update:
+
+Alright, so I was able to find an implementation of soundfile that records audio for an arbitrary duration. This is it's own separate py module that creates
+an audio file that ends up living in the project (there is a unique string appended to this file to ensure uniqueness.)
+
+My thought now is I need some form of main method that prompts this module, makes the most recent recording globally reference-able (maybe a var in .env that gets updated with file name?)
+From here I will need to pass this new audio file into transcribeAudio.py, where it can be deciphered by the AI gods. Definite progress so far...
