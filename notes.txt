@@ -1,0 +1,10 @@
+General notes to collect ideas and explore the topic.
+
+Use the chatgpt API to take requests from something like voice attack, or at least just have them be voice commands however possible.
+
+Can this be created for multiple platforms? I am seeing something that uses both chatgpt and other tools such as Google image search to provide the ultimate assistant experience.
+For example, asking chatpgt for images is kind of useless, but bringing up a handful of relevant images upon request seems useful. In the case of something like image procurement,
+it might be interesting to explore the ways different devices can change this behavior.
+    Ex: VR/AR - floating images that you can grab out of the air to select / enlarge or whatever
+    Phone: "float" these devices on the screen, explore options that aren't just opening up a safari window
+    PC: same as above, may be a bit easier to "float" the images in this env. Just needs to be flashier than simply opening google search in default browser...
