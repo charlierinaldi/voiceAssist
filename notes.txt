@@ -1,3 +1,4 @@
+3/5/2022
 General notes to collect ideas and explore the topic.
 
 Use the chatgpt API to take requests from something like voice attack, or at least just have them be voice commands however possible.
@@ -8,3 +9,6 @@ it might be interesting to explore the ways different devices can change this be
     Ex: VR/AR - floating images that you can grab out of the air to select / enlarge or whatever
     Phone: "float" these devices on the screen, explore options that aren't just opening up a safari window
     PC: same as above, may be a bit easier to "float" the images in this env. Just needs to be flashier than simply opening google search in default browser...
+
+Looks like I'm going to want to continue digging into OpenAI's offerings. At a glance their API seems to be pretty extensive and they offer tools such as "whisper" to translate
+spoken word to text. Going to run through the quickstart tutorial: https://platform.openai.com/docs/quickstart to get a better idea of how I could leverage this API
