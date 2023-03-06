@@ -12,3 +12,6 @@ it might be interesting to explore the ways different devices can change this be
 
 Looks like I'm going to want to continue digging into OpenAI's offerings. At a glance their API seems to be pretty extensive and they offer tools such as "whisper" to translate
 spoken word to text. Going to run through the quickstart tutorial: https://platform.openai.com/docs/quickstart to get a better idea of how I could leverage this API
+
+Well, I probably should have guessed this was going to involve a sample project. Going to set up a separate repo for that now. And commit another 2 line change.
+Hey, better to be safe than sorry. Don't wanna lose the hard work that went into putting these letters on the screen.
