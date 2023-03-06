@@ -15,3 +15,8 @@ spoken word to text. Going to run through the quickstart tutorial: https://platf
 
 Well, I probably should have guessed this was going to involve a sample project. Going to set up a separate repo for that now. And commit another 2 line change.
 Hey, better to be safe than sorry. Don't wanna lose the hard work that went into putting these letters on the screen.
+
+
+####################################
+Notes on transcription process:
+    Need to develop strategy for selecting the appropriate audio file... how can this be done with someething that listens in real time and generates the audio file upon hearing command?
