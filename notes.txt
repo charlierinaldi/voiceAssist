@@ -36,3 +36,10 @@ From here I will need to pass this new audio file into transcribeAudio.py, where
 
 Next step: find a way to pull the newly created audio file name from arbitraryRecord and then pass this into transcribeAudio. Importing arbitraryRecord into transcribeAudio
 results in weird behavior where the former attempts to run immediately when running the latter.
+
+Lets goooo!! I had to wrap the arbitraryRecord script in a function and include:
+
+if __name__ == '__main__':
+    generate_wav_file()
+
+at the bottom to ensure that this function does not run when the script is imported, only when it is explicitly called. I'm fuckin stoked. Gonna break for the night.
