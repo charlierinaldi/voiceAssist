@@ -32,3 +32,7 @@ an audio file that ends up living in the project (there is a unique string appen
 
 My thought now is I need some form of main method that prompts this module, makes the most recent recording globally reference-able (maybe a var in .env that gets updated with file name?)
 From here I will need to pass this new audio file into transcribeAudio.py, where it can be deciphered by the AI gods. Definite progress so far...
+
+
+Next step: find a way to pull the newly created audio file name from arbitraryRecord and then pass this into transcribeAudio. Importing arbitraryRecord into transcribeAudio
+results in weird behavior where the former attempts to run immediately when running the latter.

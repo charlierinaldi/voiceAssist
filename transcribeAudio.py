@@ -3,9 +3,18 @@
 import os
 import openai
 import json
+import arbitrayRecord
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 # using audio file from the interwebs for now, need to work through how this is retrieved in real time
-audio_file = open("C:/Users/charl/Downloads/timtube__talking.wav", "rb")
+# AHA! I had to wrap all of arbitrayRecord.py in a method generate_wav() that returns the file name. I also had to add 2 lines of code to the bottom of that script:
+#
+# if __name__ == '__main__':
+#   generate_wav()
+#
+# According to chatgpt, this is there to ensure the function is only called when the script is run directly, and not when it is imported into another script.
+
+audio_file = open(arbitrayRecord.generate_wav(), "rb")
 transcript = openai.Audio.transcribe("whisper-1", audio_file)
 
 #Pull response text from the returned dictionary
